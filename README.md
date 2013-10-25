@@ -23,3 +23,5 @@ Slow in CPython and in PyPy.
 
 * `edn.prof`: output of a `profile-edn.py` run I did one time
 * `edn.grind`: same data as `edn.prof`, but converted to kcachegrind format
+* `raw-data.edn`: **Not** the raw data that was used with `edn.prof`, but as
+  similar as I could make it without leaking private information.
