@@ -1,5 +1,6 @@
 """Generate some edn records for profiling."""
 
+import datetime
 import decimal
 import random
 import sys
@@ -31,12 +32,20 @@ def random_decimal():
     return decimal.Decimal(value).quantize(decimal.Decimal('0.01'))
 
 
+def random_day():
+    return datetime.date(2013, 1, 1) + datetime.timedelta(random.randint(0, 365))
+
+
 def make_element():
-    return {edn.Keyword('foo'): ' '.join(random_words(3)),
-            edn.Keyword('bar'): random_decimal()}
+    return {edn.Keyword('description'): ' '.join(random_words(3)),
+            edn.Keyword('amount'): random_decimal(),
+            edn.Keyword('date'): random_day()}
 
 
 
 num = int(sys.argv[1])
 for i in range(num):
-    print edn.dumps(make_element())
+    print edn.dumps(
+        make_element(),
+        [(datetime.date, edn.Symbol('day'), lambda x: x.strftime('%Y-%m-%d'))],
+    )
