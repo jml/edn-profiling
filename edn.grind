@@ -1,0 +1,1258 @@
+events: Ticks
+summary: 10904
+fi=/home/jml/src/edn/edn/_parsley.py
+fn=append /home/jml/src/edn/edn/_parsley.py:57
+57 0
+cfn=<method 'append' of 'list' objects> ~:0
+cfi=~
+calls=100 0
+57 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=withMessage /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:100
+100 126
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:17
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=47610 17
+100 112
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=end /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:56
+56 0
+cfn=append /home/jml/src/edn/edn/_parsley.py:57
+cfi=/home/jml/src/edn/edn/_parsley.py
+calls=1 57
+56 0
+cfn=apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:152
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=8 152
+56 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=rule_letter /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:461
+461 19
+cfn=withMessage /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:100
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=1397 100
+461 6
+cfn=head /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:225
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=3797 225
+461 9
+cfn=expected /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:112
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=1397 112
+461 1
+cfn=tail /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:240
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=2400 240
+461 22
+cfn=err /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:491
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=1397 491
+461 85
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Many /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:269
+269 54
+cfn=parse_And /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:233
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=500 233
+269 6144
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=8368 139
+269 34
+cfn=parse_Apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:146
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=380 146
+269 21
+cfn=<method 'append' of 'list' objects> ~:0
+cfi=~
+calls=6504 0
+269 4
+cfn=parse_Or /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:247
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=13999 247
+269 4020
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_And /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:233
+233 205
+cfn=parse_Many /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:269
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=800 269
+233 1056
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=38383 139
+233 140
+cfn=parse_Apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:146
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=15194 146
+233 7604
+cfn=nullError /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:234
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=27592 234
+233 22
+cfn=parse_Not /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:357
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=7392 357
+233 320
+cfn=parse_Exactly /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:184
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=14698 184
+233 996
+cfn=parse_Bind /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:402
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=9300 402
+233 10501
+cfn=parse_Action /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:430
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=3400 430
+233 125
+cfn=parse_Many1 /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:288
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=862 288
+233 51
+cfn=parse_Or /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:247
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=4097 247
+233 4080
+
+fi=~
+fn=<method 'split' of 'str' objects> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:23
+23 0
+cfn=setNext /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:71
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=100 71
+23 0
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:218
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=100 218
+23 0
+cfn=decomposeGrammar /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:5
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=100 5
+23 4
+
+fi=/usr/lib/python2.7/StringIO.py
+fn=_complain_ifclosed /usr/lib/python2.7/StringIO.py:38
+38 0
+
+fi=/usr/lib/python2.7/StringIO.py
+fn=read /usr/lib/python2.7/StringIO.py:119
+119 0
+cfn=_complain_ifclosed /usr/lib/python2.7/StringIO.py:38
+cfi=/usr/lib/python2.7/StringIO.py
+calls=2 38
+119 0
+
+fi=/home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py
+fn=decode /home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py:15
+15 0
+cfn=<_codecs.utf_8_decode> ~:0
+cfi=~
+calls=200 0
+15 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+fn=mkterm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:149
+149 15
+cfn=__new__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:5
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=2000 5
+149 9
+cfn=<method 'get' of 'dict' objects> ~:0
+cfi=~
+calls=2000 0
+149 1
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:98
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=2000 98
+149 3
+cfn=coerceToTerm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:118
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=2200 118
+149 58
+
+fi=~
+fn=<hash> ~:0
+0 4
+cfn=_tag_hash /home/jml/src/edn/edn/_parsley.py:19
+cfi=/home/jml/src/edn/edn/_parsley.py
+calls=1100 19
+0 2
+cfn=_node_hash /home/jml/src/edn/edn/_parsley.py:13
+cfi=/home/jml/src/edn/edn/_parsley.py
+calls=1100 13
+0 7
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=leafData /home/jml/src/edn/edn/_extended.py:97
+97 2
+cfn=constantly /home/jml/src/edn/edn/_extended.py:44
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=700 44
+97 0
+
+fi=~
+fn=<built-in method __new__ of type object at 0x84a640> ~:0
+0 4
+
+fi=~
+fn=<method 'match' of '_sre.SRE_Pattern' objects> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=rule_digit /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:476
+476 8
+cfn=withMessage /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:100
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=1098 100
+476 7
+cfn=head /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:225
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=1406 225
+476 3
+cfn=expected /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:112
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=1098 112
+476 1
+cfn=tail /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:240
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=308 240
+476 2
+cfn=err /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:491
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=1098 491
+476 67
+
+fi=/home/jml/src/edn/edn/_parsley.py
+fn=_tag_hash /home/jml/src/edn/edn/_parsley.py:19
+19 1
+cfn=<hash> ~:0
+cfi=~
+calls=1100 0
+19 0
+
+fi=~
+fn=<method 'extend' of 'list' objects> ~:0
+0 3
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+fn=bitpos /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:340
+340 4
+cfn=mask /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:336
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=2600 336
+340 2
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=term /home/jml/src/edn/edn/_extended.py:100
+100 4
+cfn=mkterm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:149
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=700 149
+100 20
+cfn=_handle_tagged_value /home/jml/src/edn/edn/_extended.py:85
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=100 85
+100 6
+cfn=__new__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:33
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 33
+100 15
+cfn=__new__ /usr/lib/python2.7/decimal.py:515
+cfi=/usr/lib/python2.7/decimal.py
+calls=100 515
+100 2
+cfn=<lambda> /home/jml/src/edn/edn/_extended.py:49
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=400 49
+100 0
+cfn=<lambda> /home/jml/src/edn/edn/_extended.py:45
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=700 45
+100 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=setNext /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:71
+71 0
+cfn=<isinstance> ~:0
+cfi=~
+calls=100 0
+71 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=__len__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:67
+67 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Optional /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:342
+342 4
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=700 139
+342 2
+cfn=nullError /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:234
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=503 234
+342 0
+cfn=parse_Exactly /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:184
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=200 184
+342 1
+cfn=parse_Or /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:247
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=697 247
+342 160
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=rule_anything /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:449
+449 15
+cfn=head /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:225
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=3596 225
+449 8
+cfn=tail /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:240
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=3596 240
+449 103
+
+fi=/home/jml/src/edn/edn/_parsley.py
+fn=_pumpInterpreter /home/jml/src/edn/edn/_parsley.py:31
+31 2
+cfn=end /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:56
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=1 56
+31 0
+cfn=receive /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:37
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=100 37
+31 10786
+cfn=makeInterpreter /home/jml/src/edn/edn/_parsley.py:62
+cfi=/home/jml/src/edn/edn/_parsley.py
+calls=100 62
+31 6
+cfn=<method 'join' of 'str' objects> ~:0
+cfi=~
+calls=99 0
+31 5
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=joinErrors /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:128
+128 224
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:17
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=18591 17
+128 39
+cfn=<method 'update' of 'set' objects> ~:0
+cfi=~
+calls=41735 0
+128 41
+cfn=<len> ~:0
+cfi=~
+calls=50765 0
+128 33
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=receive /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:37
+37 0
+cfn=append /home/jml/src/edn/edn/_parsley.py:57
+cfi=/home/jml/src/edn/edn/_parsley.py
+calls=99 57
+37 0
+cfn=<method 'extend' of 'list' objects> ~:0
+cfi=~
+calls=100 0
+37 3
+cfn=apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:152
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=199 152
+37 10781
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+fn=find /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:78
+78 7
+cfn=bitpos /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:340
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=2100 340
+78 4
+cfn=find /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:78
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=400 78
+78 3
+cfn=index /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:344
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=2000 344
+78 6
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=head /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:225
+225 103
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:108
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=14 108
+225 0
+cfn=<getattr> ~:0
+cfi=~
+calls=14 0
+225 0
+cfn=<len> ~:0
+cfi=~
+calls=56720 0
+225 37
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=expected /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:112
+112 52
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+fn=index /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:344
+344 3
+cfn=bitcount /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:348
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=2500 348
+344 3
+
+fi=~
+fn=<_codecs.utf_8_decode> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py
+fn=getregentry /home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py:33
+33 0
+cfn=__new__ /home/jml/src/edn/.env/lib/python2.7/codecs.py:77
+cfi=/home/jml/src/edn/.env/lib/python2.7/codecs.py
+calls=1 77
+33 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=getMemo /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:256
+256 64
+cfn=<method 'get' of 'dict' objects> ~:0
+cfi=~
+calls=40283 0
+256 28
+
+fi=~
+fn=<method 'strip' of 'str' objects> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py
+fn=normalize_encoding /home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py:49
+49 0
+cfn=<method 'split' of 'str' objects> ~:0
+cfi=~
+calls=1 0
+49 0
+cfn=<hasattr> ~:0
+cfi=~
+calls=1 0
+49 0
+cfn=<method 'translate' of 'str' objects> ~:0
+cfi=~
+calls=1 0
+49 0
+cfn=<method 'join' of 'str' objects> ~:0
+cfi=~
+calls=1 0
+49 0
+cfn=<isinstance> ~:0
+cfi=~
+calls=1 0
+49 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_ConsumedBy /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:438
+438 17
+cfn=parse_And /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:233
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=2900 233
+438 3291
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=4300 139
+438 16
+cfn=parse_Apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:146
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=700 146
+438 1001
+cfn=<method 'join' of 'str' objects> ~:0
+cfi=~
+calls=1000 0
+438 0
+cfn=parse_Or /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:247
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=1700 247
+438 191
+
+fi=<string>
+fn=<module> <string>:1
+1 0
+cfn=mkterm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:149
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=1100 149
+1 57
+cfn=<method 'decode' of 'str' objects> ~:0
+cfi=~
+calls=200 0
+1 2
+cfn=Float /home/jml/src/edn/edn/_ast.py:41
+cfi=/home/jml/src/edn/edn/_ast.py
+calls=100 41
+1 5
+cfn=<method 'join' of 'str' objects> ~:0
+cfi=~
+calls=200 0
+1 0
+cfn=time_edn ppp.py:8
+cfi=ppp.py
+calls=1 8
+1 10904
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=leafTag /home/jml/src/edn/edn/_extended.py:91
+91 3
+cfn=get /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:79
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=1600 79
+91 23
+
+fi=~
+fn=<method 'group' of '_sre.SRE_Match' objects> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+139 527
+cfn=<getattr> ~:0
+cfi=~
+calls=186948 0
+139 161
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=_apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:83
+83 363
+cfn=rule_letter /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:461
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=6197 461
+83 145
+cfn=rule_digit /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:476
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=1714 476
+83 90
+cfn=rule_anything /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:449
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=7192 449
+83 127
+cfn=getMemo /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:256
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=40283 256
+83 92
+cfn=nullError /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:234
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=1900 234
+83 1
+cfn=f /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:172
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=28384 172
+83 153
+cfn=setMemo /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:264
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=49082 264
+83 45
+cfn=<isinstance> ~:0
+cfi=~
+calls=3100 0
+83 3
+cfn=parse_Or /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:247
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=34000 247
+83 10779
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:146
+146 152
+cfn=apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:152
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=53196 152
+146 10768
+
+fi=~
+fn=<method 'decode' of 'str' objects> ~:0
+0 0
+cfn=decode /home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py:15
+cfi=/home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py
+calls=200 15
+0 1
+cfn=search_function /home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py:71
+cfi=/home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py
+calls=1 71
+0 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=items /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:136
+136 0
+
+fi=~
+fn=<eval> ~:0
+0 44
+cfn=<module> <string>:1
+cfi=<string>
+calls=1 1
+0 0
+
+fi=/home/jml/src/edn/edn/_parsley.py
+fn=makeInterpreter /home/jml/src/edn/edn/_parsley.py:62
+62 0
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:23
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=100 23
+62 6
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+fn=__new__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:5
+5 10
+cfn=__new__ <string>:8
+cfi=<string>
+calls=3600 8
+5 10
+cfn=<isinstance> ~:0
+cfi=~
+calls=1200 0
+5 0
+
+fi=/home/jml/src/edn/edn/_ast.py
+fn=Float /home/jml/src/edn/edn/_ast.py:41
+41 0
+cfn=mkterm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:149
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=100 149
+41 4
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+fn=<genexpr> /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:137
+137 1
+cfn=coerceToTerm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:118
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=900 118
+137 12
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=nullError /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:234
+234 28
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Not /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:357
+357 24
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=3796 139
+357 11
+cfn=nullError /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:234
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=3796 234
+357 3
+cfn=parse_Exactly /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:184
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=3996 184
+357 269
+cfn=err /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:491
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=200 491
+357 11
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:152
+152 333
+cfn=_apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:83
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=53403 83
+152 10781
+cfn=<method 'pop' of 'list' objects> ~:0
+cfi=~
+calls=40283 0
+152 32
+cfn=<method 'get' of 'dict' objects> ~:0
+cfi=~
+calls=40283 0
+152 31
+cfn=<method 'append' of 'list' objects> ~:0
+cfi=~
+calls=40283 0
+152 28
+cfn=<getattr> ~:0
+cfi=~
+calls=9299 0
+152 8
+
+fi=~
+fn=<method 'pop' of 'list' objects> ~:0
+0 32
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=constantly /home/jml/src/edn/edn/_extended.py:44
+44 0
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=_handle_tagged_value /home/jml/src/edn/edn/_extended.py:85
+85 0
+cfn=mkterm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:149
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=100 149
+85 4
+cfn=get /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:79
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 79
+85 2
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Exactly /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:184
+184 329
+cfn=withMessage /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:100
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=45115 100
+184 224
+cfn=head /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:225
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=47921 225
+184 119
+cfn=expected /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:112
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=45115 112
+184 49
+cfn=tail /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:240
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=2792 240
+184 17
+cfn=<method 'append' of 'list' objects> ~:0
+cfi=~
+calls=47907 0
+184 35
+cfn=<method 'join' of 'str' objects> ~:0
+cfi=~
+calls=2592 0
+184 1
+cfn=err /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:491
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=45115 491
+184 2801
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=__new__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:33
+33 1
+cfn=<built-in method __new__ of type object at 0x84a640> ~:0
+cfi=~
+calls=500 0
+33 0
+cfn=merge /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:45
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 45
+33 14
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:17
+17 173
+
+fi=~
+fn=<method 'get' of 'dict' objects> ~:0
+0 61
+
+fi=<string>
+fn=__new__ <string>:8
+8 6
+cfn=<built-in method __new__ of type object at 0x84a640> ~:0
+cfi=~
+calls=3600 0
+8 3
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=__init__ /home/jml/src/edn/edn/_extended.py:75
+75 0
+cfn=__len__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:67
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 67
+75 0
+cfn=with_pair /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:144
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 144
+75 3
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=f /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:172
+172 44
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=28384 139
+172 108
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:108
+108 0
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:17
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=14 17
+108 0
+cfn=eof /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:121
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=14 121
+108 0
+
+fi=~
+fn=<method 'update' of 'set' objects> ~:0
+0 41
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=tail /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:240
+240 26
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:218
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=8265 218
+240 119
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=with_pair /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:144
+144 2
+cfn=<hash> ~:0
+cfi=~
+calls=400 0
+144 6
+cfn=__new__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:33
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=400 33
+144 1
+cfn=assoc /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:93
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=400 93
+144 7
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Bind /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:402
+402 31
+cfn=parse_Many /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:269
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=600 269
+402 6615
+cfn=parse_Optional /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:342
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=200 342
+402 2
+cfn=parse_ConsumedBy /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:438
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=5300 438
+402 4520
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=7800 139
+402 25
+cfn=parse_Apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:146
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=4900 146
+402 10500
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+fn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:98
+98 6
+
+fi=~
+fn=<hasattr> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:218
+218 99
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:17
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=8365 17
+218 21
+
+fi=~
+fn=<method 'append' of 'list' objects> ~:0
+0 136
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=merge /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:45
+45 1
+cfn=with_pair /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:144
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=300 144
+45 13
+cfn=<getattr> ~:0
+cfi=~
+calls=200 0
+45 0
+cfn=keys /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:126
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 126
+45 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=decomposeGrammar /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:5
+5 4
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+fn=build /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:63
+63 12
+cfn=leafData /home/jml/src/edn/edn/_extended.py:97
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=700 97
+63 3
+cfn=term /home/jml/src/edn/edn/_extended.py:100
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=2300 100
+63 50
+cfn=leafTag /home/jml/src/edn/edn/_extended.py:91
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=1600 91
+63 27
+cfn=build /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:63
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=2200 63
+63 76
+
+fi=/usr/lib/python2.7/decimal.py
+fn=__new__ /usr/lib/python2.7/decimal.py:515
+515 1
+cfn=<built-in method __new__ of type object at 0x84a640> ~:0
+cfi=~
+calls=100 0
+515 0
+cfn=<method 'match' of '_sre.SRE_Pattern' objects> ~:0
+cfi=~
+calls=100 0
+515 0
+cfn=<method 'strip' of 'str' objects> ~:0
+cfi=~
+calls=100 0
+515 0
+cfn=<method 'group' of '_sre.SRE_Match' objects> ~:0
+cfi=~
+calls=400 0
+515 0
+cfn=<len> ~:0
+cfi=~
+calls=100 0
+515 0
+cfn=<isinstance> ~:0
+cfi=~
+calls=100 0
+515 0
+
+fi=/home/jml/src/edn/.env/lib/python2.7/codecs.py
+fn=__new__ /home/jml/src/edn/.env/lib/python2.7/codecs.py:77
+77 0
+cfn=<built-in method __new__ of type object at 0x84a640> ~:0
+cfi=~
+calls=1 0
+77 0
+
+fi=~
+fn=<getattr> ~:0
+0 171
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+fn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:64
+64 0
+
+fi=~
+fn=<method 'translate' of 'str' objects> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+fn=coerceToTerm /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:118
+118 32
+cfn=__new__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:5
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=1600 5
+118 12
+cfn=<genexpr> /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:137
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=1300 137
+118 13
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:98
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=1600 98
+118 2
+cfn=<isinstance> ~:0
+cfi=~
+calls=9900 0
+118 9
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=load /home/jml/src/edn/edn/_extended.py:142
+142 0
+cfn=parse_stream /home/jml/src/edn/edn/_ast.py:80
+cfi=/home/jml/src/edn/edn/_ast.py
+calls=1 80
+142 0
+cfn=from_terms /home/jml/src/edn/edn/_extended.py:104
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=100 104
+142 99
+cfn=iterGrammar /home/jml/src/edn/edn/_parsley.py:47
+cfi=/home/jml/src/edn/edn/_parsley.py
+calls=101 47
+142 10803
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Action /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:430
+430 9
+cfn=<eval> ~:0
+cfi=~
+calls=1700 0
+430 114
+cfn=nullError /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:234
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=1700 234
+430 1
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=<lambda> /home/jml/src/edn/edn/_extended.py:49
+49 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=setMemo /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:264
+264 45
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+fn=assoc /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:93
+93 3
+cfn=bitpos /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:340
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=500 340
+93 1
+cfn=index /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:344
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=500 344
+93 1
+cfn=__init__ /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:64
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=500 64
+93 0
+cfn=assoc /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:93
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=100 93
+93 1
+cfn=bitcount /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:348
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=400 348
+93 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+fn=bitcount /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:348
+348 4
+
+fi=~
+fn=<method 'join' of 'str' objects> ~:0
+0 6234
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=<lambda> /home/jml/src/edn/edn/_extended.py:45
+45 0
+
+fi=~
+fn=<len> ~:0
+0 71
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Many1 /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:288
+288 2
+cfn=parse_Many /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:269
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=328 269
+288 23
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=698 139
+288 2
+cfn=parse_Apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:146
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=862 146
+288 22
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=<genexpr> /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:138
+138 0
+
+fi=/home/jml/src/edn/edn/_parsley.py
+fn=_node_hash /home/jml/src/edn/edn/_parsley.py:13
+13 2
+cfn=<hash> ~:0
+cfi=~
+calls=1100 0
+13 6
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=err /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:491
+491 163
+cfn=<method 'join' of 'str' objects> ~:0
+cfi=~
+calls=83492 0
+491 6225
+
+fi=~
+fn=<isinstance> ~:0
+0 13
+
+fi=ppp.py
+fn=time_edn ppp.py:8
+8 0
+cfn=load /home/jml/src/edn/edn/_extended.py:142
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=101 142
+8 10903
+
+fi=/home/jml/src/edn/edn/_ast.py
+fn=parse_stream /home/jml/src/edn/edn/_ast.py:80
+80 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+fn=mask /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:336
+336 2
+
+fi=~
+fn=<__import__> ~:0
+0 0
+
+fi=/home/jml/src/edn/edn/_extended.py
+fn=from_terms /home/jml/src/edn/edn/_extended.py:104
+104 0
+cfn=__init__ /home/jml/src/edn/edn/_extended.py:75
+cfi=/home/jml/src/edn/edn/_extended.py
+calls=100 75
+104 4
+cfn=merge /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:45
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 45
+104 0
+cfn=build /home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py:63
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/terml/nodes.py
+calls=100 63
+104 93
+cfn=<getattr> ~:0
+cfi=~
+calls=100 0
+104 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+fn=parse_Or /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:247
+247 670
+cfn=parse_Many /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:269
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=2007 269
+247 1382
+cfn=parse_And /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:233
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=30761 233
+247 10777
+cfn=parse_Optional /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:342
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=1200 342
+247 167
+cfn=joinErrors /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:128
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+calls=50765 128
+247 339
+cfn=_eval /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:139
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=94519 139
+247 349
+cfn=parse_Apply /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:146
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=31160 146
+247 10705
+cfn=parse_Exactly /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:184
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=31419 184
+247 2311
+cfn=parse_Bind /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:402
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=1700 402
+247 3131
+cfn=<method 'append' of 'list' objects> ~:0
+cfi=~
+calls=94519 0
+247 68
+cfn=err /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:491
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=35682 491
+247 3423
+cfn=parse_Or /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py:247
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/interp.py
+calls=11388 247
+247 10601
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=keys /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:126
+126 0
+cfn=items /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:136
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 136
+126 0
+cfn=<genexpr> /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:138
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+calls=100 138
+126 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py
+fn=get /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_dict.py:79
+79 4
+cfn=<hash> ~:0
+cfi=~
+calls=1700 0
+79 2
+cfn=find /home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py:78
+cfi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/perfidy/_hamt.py
+calls=1700 78
+79 18
+
+fi=/home/jml/src/edn/edn/_parsley.py
+fn=iterGrammar /home/jml/src/edn/edn/_parsley.py:47
+47 0
+cfn=read /usr/lib/python2.7/StringIO.py:119
+cfi=/usr/lib/python2.7/StringIO.py
+calls=2 119
+47 0
+cfn=_pumpInterpreter /home/jml/src/edn/edn/_parsley.py:31
+cfi=/home/jml/src/edn/edn/_parsley.py
+calls=1 31
+47 10802
+
+fi=/home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py
+fn=search_function /home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py:71
+71 0
+cfn=getregentry /home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py:33
+cfi=/home/jml/src/edn/.env/lib/python2.7/encodings/utf_8.py
+calls=1 33
+71 0
+cfn=normalize_encoding /home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py:49
+cfi=/home/jml/src/edn/.env/lib/python2.7/encodings/__init__.py
+calls=1 49
+71 0
+cfn=<method 'get' of 'dict' objects> ~:0
+cfi=~
+calls=2 0
+71 0
+cfn=<isinstance> ~:0
+cfi=~
+calls=1 0
+71 0
+cfn=<__import__> ~:0
+cfi=~
+calls=1 0
+71 0
+
+fi=~
+fn=<method 'disable' of '_lsprof.Profiler' objects> ~:0
+0 0
+
+fi=/home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py
+fn=eof /home/jml/src/edn/.env/local/lib/python2.7/site-packages/ometa/runtime.py:121
+121 0
+
